@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project#2 - Megha Ganguli - Digital Project Development</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // 1st
+      $("#about_me").click(function() {
+        $(".skills").hide();
+        $(".experience").hide();
+        $(".contact").hide();
+        $(".cookie").hide();
+        $(".privacy-policy").hide();
+        $(".content-home-1").fadeIn(1000);
+      });
+
+      // 2nd
+      $("#skills").click(function() {
+        $(".content-home-1").hide();
+        $(".experience").hide();
+        $(".contact").hide();
+        $(".cookie").hide();
+        $(".privacy-policy").hide();
+        $(".skills").fadeIn(1000);
+      });
+
+      // 3rd
+      $("#experience").click(function() {
+        $(".content-home-1").hide();
+        $(".skills").hide();
+        $(".contact").hide();
+        $(".cookie").hide();
+        $(".privacy-policy").hide();
+        $(".experience").fadeIn(1000);
+      });
+
+      // 4th
+      $("#contact").click(function() {
+        $(".content-home-1").hide();
+        $(".experience").hide();
+        $(".skills").hide();
+        $(".cookie").hide();
+        $(".privacy-policy").hide();
+        $(".contact").fadeIn(1000);
+      });
+
+      // 5th
+      $("#privacy").click(function() {
+        $(".content-home-1").hide();
+        $(".experience").hide();
+        $(".skills").hide();
+        $(".contact").hide();
+        $(".cookie").hide();
+        $(".privacy-policy").fadeIn(1000);
+      });
+
+      // 6th
+      $("#cookie").click(function() {
+        $(".content-home-1").hide();
+        $(".experience").hide();
+        $(".skills").hide();
+        $(".contact").hide();
+        $(".privacy-policy").hide();
+        $(".cookie").fadeIn(1000);
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="header">
+      <ul>
+        <li><a href="#" id="about_me">ABOUT ME</a></li>
+        <li><a href="#" id="skills">SKILLS</a></li>
+        <li><a href="#" id="experience">EXPERIENCE</a></li>
+        <li><a href="#" id="contact">CONTACT</a></li>
+        <li><a href="cv/meghaganguli.pdf" target="_blank" download="myfile">Download CV</a></li>
+      </ul>
+    </div>
+
+    <div class="content-home-1">
+      <h1>Hi!</h1>
+      <p style="font-size:30px">My name is Megha Ganguli <br /> and I'm a <span style="color: green;"> MARKETING PROFESSIONAL </span></p>
+
+      <span style="font-size: 18px;">I am a Master Degree student at University of Surrey pursuing Digital Marketing and Channel Management. Strength in working across various domain,utilizing creative strategies to decrease timelines and increase
+        the company bottom line.<br />
+        If you want to know more about me, feel free to contact.</span>
+    </div>
+
+    <div class="skills" style="display: none;">
+      <h1>Skills</h1>
+      <hr>
+      <table cellspacing="1" cellpadding="1">
+        <tr>
+          <td>Active Listning and Efective Communication</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Negotiating and Influencing</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Decision making and Management skills</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Selling</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Customer Service</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Strong Analytical and Creative thinking</td>
+          <td>⭐⭐⭐⭐</td>
+        </tr>
+      </table>
+    </div>
+
+
+    <div class="experience" style="display: none;">
+      <h1>Experience </h1>
+      <hr>
+      <p>
+      <h3><strong>1) Krisala Developers - Pune,India</strong></h3>
+      </p>
+      <p><em>Senior Manager - Sales</em></p>
+
+      <p>
+      <h3><strong> 2) HDFC Bank - Pune,India</strong></h3>
+      </p>
+      <p><em>Manager, RBB – Preferred Relationship Manager</em></p>
+
+      <p>
+      <h3><strong>3) Radius Developers - Mumbai,India</strong></h3>
+      </p>
+      <p><em>Deputy Manager - Sales</em></p>
+
+      <p>
+      <h3><strong>4) Lodha Group of Companies - Thane,India</strong></h3>
+      </p>
+      <p><em>Senior Executive - sales</em></p>
+
+    </div>
+
+
+    <div class="contact" style="display: none;">
+      <h1>Contact</h1>
+      <hr>
+      <table>
+        <tr>
+          <td><strong>Email id~</strong></td>
+          <td>meghaganguli2391@gmail.com</td>
+        </tr>
+        <tr>
+          <td><strong>Contact~</strong></td>
+          <td>+44 7776837874</td>
+        </tr>
+        <tr>
+          <td><strong>Address~</strong></td>
+          <td>Manor Park,Guildford,Surrey</td>
+        </tr>
+      </table>
+      <br>
+      <p><em>Please leave me a message...</em></p>
+      <form method="POST" action="mailto: meghaganguli2391@gmail.com" enctype="multipart/form-data">
+        <table>
+          <tr>
+            <td>
+              <level>First Name</level>
+            </td>
+            <td><input type="text" name="fname" value="" autocomplete="off"></td>
+          </tr>
+          <tr>
+            <td>
+              <level>Your Email</level>
+            </td>
+            <td><input type="email" name="email" value="" autocomplete="off"></td>
+          </tr>
+          <tr>
+            <td>
+              <level>Your message</level>
+            </td>
+            <td><textarea name="message" rows="4" cols="50"></textarea></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="submit" value="SUBMIT" /> </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+
+    <div class="privacy-policy" style="display: none;">
+      <h1>Privacy Policy </h1>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices, orci vitae aliquet imperdiet, diam ante dictum orci, nec interdum arcu eros eget neque. Sed ultrices tempus pretium. Etiam tristique velit eu lectus posuere, in semper
+        metus aliquet. Nullam nec congue libero, vitae rhoncus enim. Donec sed facilisis sem, vel posuere erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas id diam sed tellus malesuada feugiat. Nam
+        id facilisis turpis, in congue mauris. Integer molestie libero enim. Pellentesque dolor est, malesuada non tincidunt ac, viverra ut dolor. Vivamus elementum tincidunt nisl at laoreet.
+      </p>
+      <p> Nullam non imperdiet nisl, nec viverra sapien. Sed ut tristique mauris, porta semper lacus. Phasellus hendrerit, orci ac laoreet lobortis, lorem odio eleifend tortor, a sagittis metus lorem non arcu. Sed imperdiet rhoncus ex, sit amet
+        imperdiet ante vulputate et. Suspendisse maximus, ex a bibendum ultrices, arcu ex pretium quam, ac varius purus neque non elit. Curabitur lorem dui, laoreet et nisl a, pulvinar rhoncus dolor. Aliquam sed posuere urna. Phasellus a libero
+        ultricies, posuere eros in, ornare neque. Pellentesque vel massa egestas, cursus augue in, dignissim nisl. Sed bibendum ipsum ut gravida convallis. Proin varius mattis mauris, a finibus erat hendrerit a. </p>
+
+      <p>Vivamus pellentesque non mi sed dignissim. Duis elementum eget justo eu tempus. Fusce sed odio molestie, commodo dui eget, sagittis velit. Donec ligula ante, consectetur eget tellus non, blandit sollicitudin magna. In et ornare purus, in
+        bibendum nisl. Vestibulum vehicula dolor arcu, vel lacinia diam consequat eget. Donec tincidunt, mauris a gravida laoreet, elit nulla iaculis magna, eget fringilla ex nunc ut elit. Sed interdum semper erat eu imperdiet. Aliquam sit amet
+        bibendum arcu. Maecenas imperdiet condimentum elementum. Proin hendrerit ornare efficitur. Nunc at gravida enim, eu fringilla lacus. Ut sed venenatis erat. Aliquam id cursus nisi.</p>
+
+
+    </div>
+
+    <div class="cookie" style="display: none;">
+      <h1>Cookie Policy </h1>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices, orci vitae aliquet imperdiet, diam ante dictum orci, nec interdum arcu eros eget neque. Sed ultrices tempus pretium. Etiam tristique velit eu lectus posuere, in semper
+        metus aliquet. Nullam nec congue libero, vitae rhoncus enim. Donec sed facilisis sem, vel posuere erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas id diam sed tellus malesuada feugiat. Nam
+        id facilisis turpis, in congue mauris. Integer molestie libero enim. Pellentesque dolor est, malesuada non tincidunt ac, viverra ut dolor. Vivamus elementum tincidunt nisl at laoreet.
+      </p>
+      <p> Nullam non imperdiet nisl, nec viverra sapien. Sed ut tristique mauris, porta semper lacus. Phasellus hendrerit, orci ac laoreet lobortis, lorem odio eleifend tortor, a sagittis metus lorem non arcu. Sed imperdiet rhoncus ex, sit amet
+        imperdiet ante vulputate et. Suspendisse maximus, ex a bibendum ultrices, arcu ex pretium quam, ac varius purus neque non elit. Curabitur lorem dui, laoreet et nisl a, pulvinar rhoncus dolor. Aliquam sed posuere urna. Phasellus a libero
+        ultricies, posuere eros in, ornare neque. Pellentesque vel massa egestas, cursus augue in, dignissim nisl. Sed bibendum ipsum ut gravida convallis. Proin varius mattis mauris, a finibus erat hendrerit a. </p>
+
+      <p>Vivamus pellentesque non mi sed dignissim. Duis elementum eget justo eu tempus. Fusce sed odio molestie, commodo dui eget, sagittis velit. Donec ligula ante, consectetur eget tellus non, blandit sollicitudin magna. In et ornare purus, in
+        bibendum nisl. Vestibulum vehicula dolor arcu, vel lacinia diam consequat eget. Donec tincidunt, mauris a gravida laoreet, elit nulla iaculis magna, eget fringilla ex nunc ut elit. Sed interdum semper erat eu imperdiet. Aliquam sit amet
+        bibendum arcu. Maecenas imperdiet condimentum elementum. Proin hendrerit ornare efficitur. Nunc at gravida enim, eu fringilla lacus. Ut sed venenatis erat. Aliquam id cursus nisi.</p>
+
+
+    </div>
+
+    <div class="footer">
+      <ul>
+        <li><a href="#" style="cursor:crosshair; text-decoration:none">Megha Ganguli &copy</a></li>
+        <li><a href="#" id="cookie">COOKIE POLICY</a></li>
+        <li><a href="#" id="privacy">PRIVACY POLICY</a></li>
+        <li><a target="_blank" href="https://www.facebook.com/meghaganguli23"><img src="images/facebook.png" /></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/meghaganguli/"><img src="images/linkedin.png" /></a></li>
+        <li><a target="_blank" href="https://twitter.com/MeghaGanguli"><img src="images/twitter.png" /></a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
